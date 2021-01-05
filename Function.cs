@@ -44,7 +44,7 @@ namespace FunctionApp2
             var authEndpoint = "https://login.microsoftonline.com";
             var tokenAudience = "https://api.loganalytics.io/";
 
-            TimeSpan span = new TimeSpan(0, 24, 0, 0, 0);
+            TimeSpan span = new TimeSpan(0, 36, 0, 0, 0);
 
             var adSettings = new ActiveDirectoryServiceSettings
             {
