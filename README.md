@@ -11,7 +11,7 @@ Virtual Machines can be expensive and often are left running unintentionally. Id
 
 - The parameters to be used include CPU usage, Disk Read and write operations and processor idle time.These params are considered because the conditions can be generalised over different types of VMs. Using disk reads and writes can eliminate the effect of varying memory sizes.  
 - Thresholds for Parameters
-          - CPU usage  - 2.5 % \n
+          - CPU usage  - 2.5 %    
           - Disk Reads - 30
           - Disk writes - 1
           - Idle Time - 97 %
