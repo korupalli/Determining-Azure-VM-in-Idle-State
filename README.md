@@ -19,7 +19,8 @@ These are the values I determined after testing different situations and referri
 - All the parameters are considered as averages over each hour
 - A VM is considered active if any one of CPU usage, Disk reads or writes are greater than their thresholds at least with an Idle time less than its threshold, then the VM is considered active
 There will be idle activities of the OS like checkings, updating, installations which happen for a shorter amount of time and result spikes in a trend graph. Using the above metric can eliminate these situations and improve detection accuracy
-- If there is a VM that is important and needs to be in a running state irrespective of activity, a specific tag can be collected and depending on that, the VM can be ignored.
+- If there is a VM that is important and needs to be in a running state irrespective of activity, a specific tag can be collected and depending on that, the VM can be ignored
+- Once a VM's are detected, an email notification is sent
 
 ### Steps for setting up stack
 - Register OperationalInsights in resource providers and Create a loganalytics workspace and configure the logs that you want to track 
